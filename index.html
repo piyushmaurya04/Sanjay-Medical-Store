@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjay Medical Store — Karimuddinpur, Ghazipur</title>
+  <meta name="description" content="Sanjay Medical Store — Trusted pharmacy in Karimuddinpur, Ghazipur, UP. Genuine medicines, healthcare products, and friendly service." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sanjay Medical Store — Karimuddinpur, Ghazipur" />
+  <meta property="og:description" content="Trusted pharmacy serving Karimuddinpur, Ghazipur since 1984. Genuine medicines, BP & Sugar checkups, wellness products, and friendly service." />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema.org Pharmacy markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Pharmacy",
+    "name": "Sanjay Medical Store",
+    "description": "Trusted neighbourhood pharmacy serving Karimuddinpur, Ghazipur since 1984.",
+    "foundingDate": "1984",
+    "founder": { "@type": "Person", "name": "Late Balchand Maurya" },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Karimuddinpur, near Post Office",
+      "addressLocality": "Ghazipur",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-XXXXX-XXXXX",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "13:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "15:00",
+        "closes": "20:00"
+      }
+    ],
+    "url": "",
+    "hasMap": "https://maps.app.goo.gl/9xCe2Wp43jnBiq1k6"
+  }
+  </script>
+</head>
+<body>
+  <!-- Animated background blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-prescription-bottle-medical"></i></span>
+        <span class="logo-text">Sanjay <span>Medical</span> Store</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#health-tips" class="nav-link">Health Tips</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Home -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <div class="hero-badges">
+          <span class="pill"><i class="fa-solid fa-shield-heart"></i> Serving with Trust Since 1984</span>
+          <span id="openStatus" class="open-status" title="Live store status">
+            <span class="status-dot"></span>
+            <span class="status-text">Checking…</span>
+          </span>
+        </div>
+        <h1>Your Health,<br/><span class="gradient-text">Our Priority.</span></h1>
+        <p class="lead">
+          Welcome to <strong>Sanjay Medical Store</strong> — your reliable neighbourhood
+          pharmacy in <em>Karimuddinpur, Ghazipur</em>. Genuine medicines, healthcare
+          essentials, and friendly guidance — all under one roof.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#services" class="btn btn-primary">
+            <i class="fa-solid fa-stethoscope"></i> Our Services
+          </a>
+          <a href="https://maps.app.goo.gl/9xCe2Wp43jnBiq1k6" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+            <i class="fa-solid fa-location-dot"></i> Visit Store
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3 data-count="100" data-suffix="+">0</h3>
+            <p>Daily Happy Customers Served</p>
+          </div>
+          <div class="stat">
+            <h3 data-count="300" data-suffix="+">0</h3>
+            <p>Medicines Stocked</p>
+          </div>
+          <div class="stat">
+            <h3 data-count="30" data-suffix="+">0</h3>
+            <p>Years of Trust</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="floating-card card-1">
+          <i class="fa-solid fa-capsules"></i>
+          <div>
+            <strong>Genuine</strong>
+            <span>Medicines</span>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <div>
+            <strong>BP</strong>
+            <span>Free Check</span>
+          </div>
+        </div>
+        <div class="floating-card card-3">
+          <i class="fa-solid fa-truck-medical"></i>
+          <div>
+            <strong>Home</strong>
+            <span>Delivery</span>
+          </div>
+        </div>
+        <div class="hero-orb">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>Caring for the community<br/>one prescription at a time.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <span class="est-badge"><i class="fa-solid fa-medal"></i> Established 1984</span>
+          <p>
+            Proudly serving the community since <strong>1984</strong>,
+            <strong> Sanjay Medical Store</strong> has been a familiar name in
+            <strong> Karimuddinpur, Ghazipur (UP)</strong> — situated conveniently near
+            the Post Office. Over four decades of trust, we believe that quality
+            healthcare should be accessible, affordable, and friendly.
+          </p>
+          <p>
+            From everyday medicines to specialty prescriptions, baby care, wellness
+            products and surgical essentials — we stock what your family needs, when
+            you need it.
+          </p>
+
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-circle-check"></i> 100% Genuine & Government-Approved Medicines</li>
+            <li><i class="fa-solid fa-circle-check"></i> Friendly & Knowledgeable Staff</li>
+            <li><i class="fa-solid fa-circle-check"></i> Open 7 Days a Week</li>
+            <li><i class="fa-solid fa-circle-check"></i> Free Basic Health Checkups</li>
+          </ul>
+
+          <div class="legacy-card">
+            <div class="legacy-row">
+              <div class="legacy-icon founder"><i class="fa-solid fa-seedling"></i></div>
+              <div>
+                <span class="legacy-label">Founder</span>
+                <h5>Late Shri Balchand Maurya</h5>
+                <p>The visionary who planted the seed of service in 1984.</p>
+              </div>
+            </div>
+            <div class="legacy-divider"></div>
+            <div class="legacy-row">
+              <div class="legacy-icon current"><i class="fa-solid fa-user-doctor"></i></div>
+              <div>
+                <span class="legacy-label">Currently Managed By</span>
+                <h5>Mr. Vivek Maurya  -  Pharmacist  </h5>
+                <p>Carrying forward the family legacy with the same dedication and care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-cards">
+          <div class="info-card reveal">
+            <i class="fa-solid fa-award"></i>
+            <h4>Licensed Pharmacy</h4>
+            <p>Operated under certified pharmacist supervision.</p>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-people-roof"></i>
+            <h4>Community First</h4>
+            <p>Serving Karimuddinpur and nearby villages with care.</p>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-hand-holding-medical"></i>
+            <h4>Affordable Care</h4>
+            <p>Fair pricing on all branded & generic medicines.</p>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-clock"></i>
+            <h4>Opening Hours</h4>
+            <p>Morning: 8:00 AM — 1:00 PM<br/>Evening: 3:00 PM — 8:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Services</span>
+        <h2>What we offer to keep you healthy</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-pills"></i></div>
+          <h3>Prescription Medicines</h3>
+          <p>All major brands and generic alternatives available across categories.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3>BP Checkup</h3>
+          <p>Free blood pressure CheckUp at the store.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+          <h3>Baby & Mother Care</h3>
+          <p>Trusted nutrition, diapers, formula, and infant healthcare products.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-syringe"></i></div>
+          <h3>Surgical & First Aid</h3>
+          <p>Bandages, antiseptics, injections, and emergency essentials.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Ayurvedic Products</h3>
+          <p>Wide range of trusted ayurvedic and herbal medicines.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+          <h3>Health & Wellness</h3>
+          <p>Vitamins, supplements, and wellness products to support your everyday health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products / Categories -->
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Categories</span>
+        <h2>Everything your family needs</h2>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-tile reveal" style="--c1:#60a5fa;--c2:#3b82f6;">
+          <i class="fa-solid fa-tablets"></i>
+            <h4>Tablets & Capsules</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#f472b6;--c2:#ec4899;">
+          <i class="fa-solid fa-bottle-droplet"></i>
+          <h4>Syrups & Tonics</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#34d399;--c2:#10b981;">
+          <i class="fa-solid fa-vial"></i>
+          <h4>Injectables</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#fbbf24;--c2:#f59e0b;">
+          <i class="fa-solid fa-soap"></i>
+          <h4>Personal Care</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#a78bfa;--c2:#8b5cf6;">
+          <i class="fa-solid fa-mask-face"></i>
+          <h4>Surgical Items</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#fb7185;--c2:#f43f5e;">
+          <i class="fa-solid fa-wheat-awn"></i>
+          <h4>Nutrition</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#22d3ee;--c2:#06b6d4;">
+          <i class="fa-solid fa-tooth"></i>
+          <h4>Dental Care</h4>
+        </div>
+        <div class="product-tile reveal" style="--c1:#94a3b8;--c2:#64748b;">
+          <i class="fa-solid fa-hand-holding-droplet"></i>
+          <h4>Sanitizers</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey Timeline -->
+  <section id="journey" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Journey</span>
+        <h2>Four decades of care, since <span class="gradient-text">1984</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa-solid fa-seedling"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-year">1984</span>
+            <h4>The Beginning</h4>
+            <p>Late Shri <strong>Balchand Maurya</strong> opens Sanjay Medical Store in Karimuddinpur with a single dream — affordable, genuine medicine for every family.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa-solid fa-people-group"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-year">1995</span>
+            <h4>A Trusted Name</h4>
+            <p>Within a decade, the store becomes the go-to pharmacy for nearby villages — known for honest service and fair pricing.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa-solid fa-capsules"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2005</span>
+            <h4>Expanding the Shelves</h4>
+            <p>Inventory grows to include surgical essentials, baby care, ayurvedic, and wellness products — becoming a true family pharmacy.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa-solid fa-user-doctor"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022</span>
+            <h4>The Next Generation</h4>
+            <p><strong>Vivek Maurya</strong> takes the reins, continuing the family legacy with renewed dedication and modern care.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Today</span>
+            <h4>Serving with the Same Heart</h4>
+            <p>Free BP & sugar checkups, 300+ medicines stocked, and 100+ happy customers every day — the same trust, stronger than ever.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Health Tips -->
+  <section id="health-tips" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Health Tips</span>
+        <h2>Small steps. Big difference.</h2>
+      </div>
+
+      <div class="tips-grid">
+        <article class="tip-card reveal">
+          <div class="tip-num">01</div>
+          <h3>Stay Hydrated</h3>
+          <p>Drink at least 8 glasses of water daily to keep your body energized and detoxified.</p>
+        </article>
+        <article class="tip-card reveal">
+          <div class="tip-num">02</div>
+          <h3>Take Medicines on Time</h3>
+          <p>Never skip prescribed doses. Set reminders and complete the full course.</p>
+        </article>
+        <article class="tip-card reveal">
+          <div class="tip-num">03</div>
+          <h3>Eat a Balanced Diet</h3>
+          <p>Include fruits, vegetables, and whole grains for long-term wellness.</p>
+        </article>
+        <article class="tip-card reveal">
+          <div class="tip-num">04</div>
+          <h3>Regular Checkups</h3>
+          <p>Monitor blood pressure & sugar regularly — prevention is better than cure.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Visit us or get in touch</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <span class="ci-icon"><i class="fa-solid fa-location-dot"></i></span>
+            <div>
+              <h4>Address</h4>
+              <p>Karimuddinpur, near Post Office,<br/>Ghazipur, Uttar Pradesh</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon"><i class="fa-solid fa-phone"></i></span>
+            <div>
+              <h4>Mobile</h4>
+              <p>+91 9097567383</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+91 9097567383</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon"><i class="fa-solid fa-clock"></i></span>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Mon — Sun : 8:00 AM — 8 PM</p>
+            </div>
+          </div>
+
+          <div class="socials">
+            <a href="#" aria-label="Instagram" class="social ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X" class="social x"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp" class="social wa"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" class="social fb"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" onsubmit="event.preventDefault();">
+          <h3>Send us a message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder=" " />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required placeholder=" " />
+              <label for="email">Email Address</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder=" " />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" required placeholder=" "></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-icon"><i class="fa-solid fa-prescription-bottle-medical"></i></span>
+          <span class="logo-text">Sanjay <span>Medical</span> Store</span>
+        </a>
+        <p>Your trusted neighbourhood pharmacy in Karimuddinpur, Ghazipur. Serving the community with care since <strong>1984</strong>.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h5>Reach Us</h5>
+        <p><i class="fa-solid fa-location-dot"></i> Karimuddinpur, Ghazipur, UP</p>
+        <p><i class="fa-solid fa-phone"></i> +91 9097567383</p>
+        <p><i class="fa-brands fa-whatsapp"></i> +91 9097567383</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Sanjay Medical Store — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating action buttons -->
+  <div class="fab-stack">
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20Sanjay%20Medical%20Store%2C%20I%20have%20a%20query." target="_blank" rel="noopener noreferrer" class="fab fab-whatsapp" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="fab-tooltip">WhatsApp Us</span>
+    </a>
+    <a href="tel:+91XXXXXXXXXX" class="fab fab-call" aria-label="Call store">
+      <i class="fa-solid fa-phone"></i>
+      <span class="fab-tooltip">Call Now</span>
+    </a>
+  </div>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
